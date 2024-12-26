@@ -25,7 +25,6 @@ const reducer = (state, action) => {
   }
 };
 
-// Context provider component
 export const AppProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, initialState);
 
@@ -36,5 +35,4 @@ export const AppProvider = ({ children }) => {
   );
 };
 
-// Export the context for use in other components
 export default AppContext;
