@@ -10,7 +10,7 @@ Contact List: Displays a list of available contacts.
 
 Chat Window: Enables chatting with a selected contact.
 
-WebSocket Integration: Real-time communication for sending and receiving messages.
+~~WebSocket Integration: Real-time communication for sending and receiving messages.~~
 
 ## File Structure
 
